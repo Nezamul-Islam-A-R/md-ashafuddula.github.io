@@ -136,7 +136,7 @@ h5 {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
     transition: 0.1s;
     width: 100%;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 0px 0px 10px 10px;
     background-color: #fdfdff;
 }
 
@@ -270,7 +270,7 @@ input {
 }
 
 #footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0px;
     bottom: 0px;
     height: 20px;
@@ -293,7 +293,7 @@ input {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
     transition: 0.1s;
     width: 100%;
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
     background-color: #fdfdff;
 }
 
@@ -306,3 +306,49 @@ input {
     color: #E6E6FA;
     background: rgba(25, 30, 34, 0.822);
 }
+.p-text {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: justify;
+    /* background-color: #eeeeee; */
+  }
+
+  .p-text2 {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    /* background-color: #eeeeee; */
+  }
+
+  .p-text-list {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: left;
+    /* background-color: #eeeeee; */
+  }
+  
+  .none {
+    text-justify: none;
+  }
+  
+  .auto {
+    text-justify: auto;
+  }
+  
+  .dist {
+    text-justify: distribute;
+  }
+  
+  .word {
+    text-justify: inter-word;
+  }
+  
+  .char {
+    text-justify: inter-character;
+  }

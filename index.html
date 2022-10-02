@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>T-24 user request</title>
+    <title>N. I. Md. Ashafuddula</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,50 +24,43 @@
 
                     <nav class="top-card navbar fixed-top navbar-expand-sm navbar-light bg-light">
                         <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
                             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                                 <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
-                                <ul class="navbar-nav2 ml-auto mb-2 mb-lg-0">
-                                    <div class="col-4">
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                                        </li>
-                                    </div>
-                                </ul>
+                            
                                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link active" aria-current="id_profile01" href="index.html#id_profile01">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Research</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="index.html#id_news01" 
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  News
+                                                </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="index.html#id_services01">Services</a></li>
+                                                <li><a class="dropdown-item" href="index.html#id_projects01">Projects</a></li>
+                                                <!-- <li>
+                                                    <hr class="dropdown-divider">
+                                                </li> -->
+                                            </ul>
+                                        </li>
+                                        <a class="nav-link" href="index.html#id_research01">Research</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Publications</a>
+                                        <a class="nav-link" href="index.html#id_training01">Training</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Awards</a>
+                                        <a class="nav-link" href="index.html#id_contacts01">Contacts</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">News</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Training</a>
-                                    </li>
-                                    <!-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                              Dropdown
-                                            </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="index.html#id_services01">Services</a>
                                     </li> -->
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -75,15 +68,15 @@
 
 
                     <div class="main-elements container content-padding">
-                        <div class="card" style="height: 300px;" id="id_profile01">
+                        <div class="card" id="id_profile01">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="row">
                                         <div class="col-sm-3 align-center">
-                                            <img src="suit me.png" class="img-fluid" alt="N. I. Md. Ashafuddula -image">
+                                            <img src="suit me.png" class="img-fluid center" width="180px" height="200px" alt="N. I. Md. Ashafuddula -image">
                                         </div>
-                                        <div class="col-sm-6 content-padding">
-                                            <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="row" style="padding-top: 20px;">
                                                 <h3 class="align-left">N. I. Md. Ashafuddula</h3>
                                                 <h6 class="align-left text-secondary">Assistant Officer, Software development team</h6>
                                                 <h6 class="align-left text-secondary">Mercantile Bank</h6>
@@ -95,17 +88,246 @@
                                             <div class="row center">
                                                 <div class="container">
                                                     <p style="margin: 0%; font-size: 10px;">More about me</p>
-                                                    <button type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">Linked in</button>
-                                                    <button type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">CV</button>
-                                                    <button type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">Google Scholar</button>
-
+                                                    <button onclick="window.open('https://www.linkedin.com/in/n-i-md-ashafuddula-165327124/', '_blank'); return false;" type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">Linked in</button>
+                                                    <button onclick="window.open('https://github.com/md-ashafuddula', '_blank'); return false;" type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">Github</button>
+                                                    <button onclick="window.open('https://scholar.google.com/citations?hl=en&authuser=8&user=spzsfpMAAAAJ', '_blank'); return false;" type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">Google Scholar</button>
+                                                    <button onclick="window.open('https://www.researchgate.net/profile/N-I-Md-Ashafuddula', '_blank'); return false;" type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">ResearchGate</button>
+                                                    <button onclick="window.open('N I Md Ashafuddula_CV.pdf', '_blank'); return false;" type="button" class="btn btn-outline-secondary btn-sm" style="width: 70%; margin: 2%;">CV</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-sm-12 " style="padding-top: 20px;">
+                                <hr>
+                                <p class="p-text">
+                                    I myself, <b>N. I. MD. ASHAFUDDULA</b> earned my BSc in degree in 2018 from the department of Computer Science & 
+                                    Engineering at Rajshahi University of Engineering & Technology (RUET), a prestigious engineering university 
+                                    in Bangladesh. Currently, I am pursuing my MSc in CSE degree at Dhaka University
+                                     of Engineering & Technology, Gazipur. My research interest is in <u>Data Science, Big data, Data mining, Medical 
+                                        Image Analysis, and Natural Language Processing</u>.<br> 
+                                    I have worked under the supervision of <a href="https://www.ruet.ac.bd/biprodip" target="_blank">Assistant Professor 
+                                        Biprodip Pal</a> sir on the <u>Cold-Start recommendation system</u> and currently, I am working under 
+                                        <a href="https://profile.duet.ac.bd/u/rafiqul.islam" target="_blank">Professor Rafiqul Islam, PhD                                            
+                                        </a>sir on <u>Medical Image analysis</u>. <br>
+                                        Besides all of the academic work I also have working experience as 
+                                        a full-time employee for <u>Avis Technologies LTD, MedEasy, and Mercantile 
+                                        Bank (present)</u>. I am also one of the proud members of the Institute of Engineering Bangladesh (IEB) 
+                                        and the Bangladesh Computer Society (BCS). 
+                                        <br><br><b>Currently, I am looking for exploring new levels in CS.</b>
+                                </p>
+                            </div>
                         </div>
+
+                        <div class="card main-elements" id="id_news01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">News</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="col-sm-12 p-text-list" style="padding-top: 20px;">
+                                <p> <b>(2015)</b> Organized NCPC at RUET</p>   
+                                <p> <b>(2015)</b> 4th position, programming contest, NCPC at RUET</p>                                
+                                <p> <b>(2015)</b> Participation award from a photography exhibition, Dhaka, (Raindrop photography exhibition)</p>
+                                <p><b>(2016)</b> 1st Runner-Up in IEEE Robodroid Championship, <a href="https://github.com/md-ashafuddula/AgainstRoadAccident" target="_blank"> নিরপদ সড়ক (Android application)</a></p>
+                                <p> <b>(2016)</b> Inter department cricket tournament champion, RUET</p>
+                                <p> <b>(2016-17)</b> Participation award from a National Hackathon, Dhaka</p> 
+                                <p> <b>(2017)</b> Inter department cricket tournament Runner-Up, RUET</p>                                                               
+                            </div>
+                        </div>
+
+                        <div class="card main-elements" id="id_services01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">Services</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="col-sm-12 p-text-list" style="padding-top: 20px;">
+                                <u><h6> <b>(2018-2019), 1y-1m</b> <a href="https://www.avistechbd.com/" target="_blank">Avis technologies ltd</a>, Panthapath, Dhaka</h6> </u>
+                                <p> <b>I was responsible for</b> Designing and developing advanced android applications. 
+                                    <b>Tools: </b> Android studio, Google cloud services (Map, Database, Firebase auth) 
+                                    <b>Databases: </b> MsSql, Mysql, Firebase db. 
+                                    <b>Others: </b> Bug fixing and improving application performance, Publishing App on Google play store
+                                    ensuring app responsiveness, develop and integrate APIs<br><br>
+                                </p>    
+                                <hr>
+                                <u><h6> <b>(2019-2020) and (2021-2022), 10m</b> <a href="https://medeasy.health/" target="_blank">MedEasy</a>, Banasree, Dhaka</h6> </u>
+                                <p> <b>I was responsible for</b> analyze users data to predict possible treatment using Machine Learning techniques,
+                                     Design, build, reusable, and reliable Java code. 
+                                    <b>Tools: </b> Android studio, Google Colab, Anaconda, MS Excel. 
+                                    <b>Databases: </b> MsSql, Mysql. 
+                                    <b>Others: </b> Requirement analysis & Feature improvement, 
+                                    Ensure the best possible performance,
+                                    ensuring app responsiveness, Bug fixing and improving application performance<br><br>
+                                </p>                                                                 
+                                <hr>
+                                <u><h6> <b>(2012-present)</b> <a href="https://www.mblbd.com/" target="_blank"> Mercantile Bank </a>, Dhaka</h6> </u>
+                                <p> <b>I am responsible for</b> Design client-side and server-side architecture, 
+                                    Build the front-end of applications through appealing visual design, 
+                                    Develop and manage well-functioning databases and applications,
+                                    Write effective APIs, Write technical documentation and
+                                    Build high availability components. 
+                                    <b>Tools: </b> IntelliJ, VScode,  
+                                    <b>Databases: </b> Oracle db. <br><br>
+                                </p>                                                                 
+                            </div>
+                        </div>
+
+                        <div class="card main-elements" id="id_projects01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">Projects</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="col-sm-12 p-text-list" style="padding-top: 20px;">
+                                <p> <b>(2022), 
+                                    <a href="#" target="_blank">
+                                        (coming soon) Mcpay</a></b> 
+                                        Mercantile bank service
+                                    </b>
+                                </p>
+                                <p> <b>(2022), 
+                                    <a href="#" target="_blank">
+                                        (coming soon) DNCC tax pay</a></b> 
+                                        Mercantile bank service
+                                    </b>
+                                </p>
+                                <p> <b>(2019-2022), 
+                                    <a href="https://medeasy.health/" target="_blank">
+                                        MedEasy (DaktarBondhu)</a></b> 
+                                        Android app
+                                    </b>
+                                </p>  
+                                <p> <b>(2019), 
+                                    <a href="https://bitbucket.org/Ashaf_razon/pickanddrop/src/master/" target="_blank">
+                                        Office pick and Drop</a></b> 
+                                        Android app
+                                    </b>
+                                </p>    
+                                <p> <b>(2019), 
+                                    <a href="https://play.google.com/store/apps/details?id=com.avistechbd.inventorymanagement" target="_blank">
+                                        Office Inventory management</a></b> 
+                                        Android app
+                                    </b>
+                                </p>   
+                                <p> <b>(2018-19), 
+                                    <a href="https://play.google.com/store/apps/details?id=com.avis.avistechbd.ngodemo" target="_blank">
+                                        Light of Hope</a></b> 
+                                        Call home service through smart phone, Android app
+                                    </b>
+                                </p>                                                          
+                            </div>
+                        </div>
+
+                        <div class="card main-elements" id="id_research01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">Research and Publications</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->                        
+                            <div class="col-sm-12 p-text-list" style="padding-top: 20px;">
+                                <p style="font-size: 18px;"><b>Journals papers---</b></p> 
+                                <hr>
+                                <p> <b>(2022), 
+                                    <a style="color: green;" href="http://journals.agh.edu.pl/csci" target="_blank">
+                                        Computer Science</a></b> 
+                                    Melanoma Skin Cancer and Nevus Mole Classification using Intensity Value Estimation with Convolutional Neural Network,
+                                    <b>authors: N. I. Md. Ashafuddula and Rafiqul Islam</b>
+                                </p>     
+                                
+                                <p> <b>(2022), 
+                                    <a href="#" target="_blank">
+                                        Under submission</a></b> 
+                                        An Intelligent Diagnostic System to analyze early-stage Chronic Kidney Disease for Clinical Application,
+                                    <b>authors: N. I. Md. Ashafuddula, Bayezid Islam and Rafiqul Islam</b>
+                                </p>  
+
+                                <p> <b>(2022), 
+                                    <a href="#" target="_blank">
+                                        Under submission</a></b> 
+                                        Contour-based early-stage Tumor Detection and Classification for Unseen Brain MRI using VGG-16 Transfer Learning model,
+                                    <b>authors: N. I. Md. Ashafuddula and Rafiqul Islam</b>
+                                </p>  
+                               
+                                <br><br>
+                                <p style="font-size: 18px;"><b>Conference papers---</b></p>
+                                <hr>
+                                <p> <b>(2018), 
+                                    <a style="color: green;" href="http://journals.agh.edu.pl/csci" target="_blank">
+                                        International Conference of Computer and Information Technology (ICCIT)</a></b> 
+                                        A Machine Learning Approach to Detect Self-Care Problems of Children with Physical and Motor Disability,
+                                        <b>authors: Bayezid Islam, N. I. Md. Ashafuddula and Firoz Mahmud</b>
+                                    </p>                                                                                                                            
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 align-left">
+                                    <a style="padding: 1%;" href="research-publications.html" target="_blank">[View full list]</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card main-elements" id="id_training01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">Trainings</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="col-sm-12 p-text" style="padding-top: 20px;">
+                                <p> <b>(2022), 
+                                    <a href="ML coursera certificate.JPG" target="_blank">
+                                        Basic Banking Training</a></b> 
+                                        Basic Banking Training completion certificate, BMBLTI,
+                                        training provided by Mercantile bank</b>
+                                </p>
+
+                                <p> <b>(2018), 
+                                    <a href="ML coursera certificate.JPG" target="_blank">
+                                        Machine Learning</a></b> 
+                                        Machine Learning course provided by Andrew Ng (Coursera), 
+                                        Authorized by stanford university</b>
+                                </p>
+
+                                <p> <b>(March 2017 – September 2017 ), 
+                                    <a href="https://bcc.gov.bd/" target="_blank">
+                                        Top-Up IT training on Java</a></b> 
+                                        Top-Up IT training on Java organized by BCC under LICT project, 
+                                        certified by George Washington University, USA, Training time was 300 hours on Java & Core Java</b>
+                                </p>
+
+
+                            </div>
+                        </div>
+
+                        <div class="card main-elements" id="id_contacts01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">Contacts</h5>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="col-sm-12 " style="padding-top: 20px;">
+                                <p class="p-text2"> <b>Address: </b> Kaderabad housing, Mohammadpur, Dhaka-1207
+                                <br><b>Phone: </b>  +880 1932-082303 or +880 1701-009987
+                                <br><b>E-mail: </b>   md.ashafuddula@gmail.com
+                            </p>   
+                            </div>
+                        </div>
+
+                        <!-- <div class="card main-elements" id="id_references01">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="btn-secondary" style="padding: 1%;">References</h5>
+                                </div>
+                            </div>
+
+
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-sm-2"> </div>
