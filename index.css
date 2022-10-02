@@ -113,7 +113,6 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #008000;
 }
 
 h5 {
@@ -141,6 +140,21 @@ h5 {
     background-color: #fdfdff;
 }
 
+.align-left {
+    display: flex;
+    float: left;
+}
+
+.align-center {
+    display: flex;
+    float: center;
+}
+
+.align-right {
+    display: flex;
+    float: right;
+}
+
 .cardTop {
     margin-bottom: 40px;
     width: 100%;
@@ -162,7 +176,9 @@ h5 {
 }
 
 img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 0px 0px 0px 0px;
+    padding: 5px;
+    /* border-radius: 70%; */
 }
 
 .form-center {
@@ -257,17 +273,12 @@ input {
     position: fixed;
     left: 0px;
     bottom: 0px;
-    height: 30px;
+    height: 20px;
     width: 100%;
 }
 
-.cardBottom {
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
-    transition: 0.1s;
-    margin-bottom: 0px;
-    width: 100%;
-    color: #E6E6FA;
-    background: rgba(3, 100, 165, 0.856);
+.main-elements {
+    margin-top: 40px;
 }
 
 .img-style {
@@ -276,4 +287,22 @@ input {
     margin: 0px, 0px, 10px, 0px;
     width: 240px;
     height: 40px;
+}
+
+.top-card {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
+    width: 100%;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #fdfdff;
+}
+
+.footer-card {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    color: #E6E6FA;
+    background: rgba(25, 30, 34, 0.822);
 }
