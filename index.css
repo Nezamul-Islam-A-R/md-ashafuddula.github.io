@@ -308,7 +308,7 @@ input {
 }
 
 .p-text {
-    font-size: 14px;
+    font-size: 1vw;
     padding: 10px;
     width: 100%;
     margin: 10px auto;
@@ -317,7 +317,7 @@ input {
 }
 
 .p-text2 {
-    font-size: 14px;
+    font-size: 1vw;
     padding: 10px;
     width: 100%;
     margin: 10px auto;
@@ -326,7 +326,7 @@ input {
 }
 
 .p-text-list {
-    font-size: 14px;
+    font-size: 1vw;
     padding: 10px;
     width: 100%;
     margin: 10px auto;
