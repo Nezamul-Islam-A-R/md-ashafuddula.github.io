@@ -300,12 +300,13 @@ input {
 .footer-card {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
     transition: 0.1s;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
     width: 100%;
     color: #E6E6FA;
     background: rgba(25, 30, 34, 0.822);
 }
+
 .p-text {
     font-size: 14px;
     padding: 10px;
@@ -313,42 +314,42 @@ input {
     margin: 10px auto;
     text-align: justify;
     /* background-color: #eeeeee; */
-  }
+}
 
-  .p-text2 {
+.p-text2 {
     font-size: 14px;
     padding: 10px;
     width: 100%;
     margin: 10px auto;
     text-align: center;
     /* background-color: #eeeeee; */
-  }
+}
 
-  .p-text-list {
+.p-text-list {
     font-size: 14px;
     padding: 10px;
     width: 100%;
     margin: 10px auto;
     text-align: left;
     /* background-color: #eeeeee; */
-  }
-  
-  .none {
+}
+
+.none {
     text-justify: none;
-  }
-  
-  .auto {
+}
+
+.auto {
     text-justify: auto;
-  }
-  
-  .dist {
+}
+
+.dist {
     text-justify: distribute;
-  }
-  
-  .word {
+}
+
+.word {
     text-justify: inter-word;
-  }
-  
-  .char {
+}
+
+.char {
     text-justify: inter-character;
-  }
+}
