@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for social icons and menu icons -->
@@ -113,11 +118,14 @@
         </div>
 
         <div id="research" class="no-border">
-            <div class="dynamic-bar">Current Research Work</div>
+            <div class="dynamic-bar">Ongoing Research Work</div>
             <ul class="list-unstyled text-large">
-                <li><i class="fas fa-angle-right"></i> An Machine Learning Framework for multiple cancer detection with optimized hyperparameters</li>
-                <li><i class="fas fa-angle-right"></i> Knee injury identification using Deep Neural Network</li>
-                <li><i class="fas fa-angle-right"></i> Federated Learning in Healthcare advancements</li>
+                <li><i class="fas fa-angle-right"></i> An Machine Learning Framework for multiple cancer detection with optimized hyperparameters
+                    <span class="new-indicator">NEW</span></li>
+                <li><i class="fas fa-angle-right"></i> Knee injury identification using Deep Neural Network
+                    <span class="new-indicator">NEW</span></li>
+                <li><i class="fas fa-angle-right"></i> Federated Learning in Healthcare advancements
+                    <span class="new-indicator">NEW</span></li>
                 <!-- Add more research work titles as needed -->
             </ul>
         </div>
@@ -352,11 +360,132 @@
         <div id="services" class="no-border">
             <div class="dynamic-bar">Services</div>
 
+            <table class="job-experience-table"> 
+                <thead>
+                    <tr>
+                        <th>Time Period</th>
+                        <th>Company</th>
+                        <th>Location</th>
+                        <th>Responsibilities</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>(2018-2019)</td>
+                        <td>Avis Technologies Ltd</td>
+                        <td>Panthapath, Dhaka</td>
+                        <td>
+                            <p><strong>Role:</strong> Designing and developing advanced android applications.</p>
+                            <p><strong>Tools:</strong> Android Studio, Google Cloud Services (Map, Database, Firebase Auth)</p>
+                            <p><strong>Databases:</strong> MsSql, Mysql, Firebase DB</p>
+                            <p><strong>Others:</strong> Bug fixing and improving application performance, Publishing App on Google Play Store ensuring app responsiveness, Developing and integrating APIs.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>(2019-2020) and (2021-2022), 10m</td>
+                        <td>MedEasy</td>
+                        <td>Banasree, Dhaka</td>
+                        <td>
+                            <p><strong>Role:</strong> Analyzing users data to predict possible treatments using Machine Learning techniques, Android app development consultation.</p>
+                            <p><strong>Tools:</strong> Android Studio, Google Colab, Anaconda, MS Excel</p>
+                            <p><strong>Databases:</strong> MsSql, Mysql</p>
+                            <p><strong>Others:</strong> Requirement analysis & feature improvement, Ensuring the best possible performance, Ensuring app responsiveness, Bug fixing, and improving application performance.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>(Feb, 2022-present)</td>
+                        <td>Mercantile Bank</td>
+                        <td>Dhaka</td>
+                        <td>
+                            <p><strong>Role:</strong> Designing and developing the front-end of applications through appealing visual design, Developing and managing well-functioning <b>Mobile application</b>, databases and applications, Writing effective APIs, Writing technical documentation, Building high availability components.</p>
+                            <p><strong>Tools:</strong> Android Studio, IntelliJ, VSCode</p>
+                            <p><strong>Databases:</strong> MS SQL</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div id="skills" class="no-border">
-            <div class="dynamic-bar">Skills</div>
+            <div class="dynamic-bar"> <i class="fas fa-tools"></i> Technical Skills</div>
 
+            <div class="skills-section">
+                
+                <div class="row">
+                    <div class="col-md-3 column-divider">
+                        <h4><i class="fas fa-code"></i> Programming</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+
+                        <h4><i class="fas fa-database"></i> Databases</h4>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                            <li>MsSQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 column-divider">
+                        <h4><i class="fas fa-globe"></i> Web Development</h4>
+                        <ul>
+                            <li>Android (Java)</li>
+                            <li>Java Spring/ Spring boot</li>
+                            <li>Django</li>
+                            <li>Django Rest Framework</li>
+                            <li>Bootstrap</li>
+                            <li>Angular JS</li>
+                        </ul>
+
+                        <h4><i class="fab fa-android"></i> Android Development</h4>
+                        <ul>
+                            <li>Android (Java)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 column-divider">
+                        <h4><i class="fas fa-cubes"></i> Other Frameworks</h4>
+                        <ul>
+                            <li>PyTorch</li>
+                            <li>TensorFlow</li>
+                            <li>Keras</li>
+                            <li>Scikit Learn</li>
+                            <!-- <li>Scrapy</li> -->
+                            <!-- <li>OpenCV2</li> -->
+                            <!-- <li>PyKnow</li> -->
+                            <!-- <li>CLIPS</li> -->
+                        </ul>
+
+                        <h4><i class="fas fa-project-diagram"></i> Design Pattern</h4>
+                        <ul>
+                            <li>MVC</li>
+                            <li>MVVM</li>
+                            <li>MVP</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <h4><i class="fas fa-server"></i> Application Servers</h4>
+                        <ul>
+                            <li>Apache</li>
+                            <li>Tomcat</li>
+                        </ul>
+
+                        <h4><i class="fas fa-tools"></i> Tools</h4>
+                        <ul>
+                            <li>Photoshop CC</li>
+                            <li>LATEX</li>
+                            <li>Trello</li>
+                            <li>Git</li>
+                            <li>Google Colab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="projects" class="no-border">
