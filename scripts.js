@@ -20,3 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 100); // Change color every 2 seconds
 });
+function enableDesktopView() {
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
+    alert('Desktop view enabled');
+}

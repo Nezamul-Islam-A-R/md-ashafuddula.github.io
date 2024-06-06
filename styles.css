@@ -194,3 +194,22 @@ body {
 .skills-section ul li {
     margin-bottom: 5px;
 }
+desktop-view-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.desktop-view-button {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color:  #343a40;
+    color:  #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
