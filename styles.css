@@ -197,16 +197,14 @@ body {
 desktop-view-message {
     color: red;
     font-weight: bold;
-    margin-top: 40px;
-    margin-left: 20px;
     display: flex;
     align-items: center;
 }
 .desktop-view-button {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px 7px;
     background-color:  #343a40;
     color:  #ffc107;
     border: none;
