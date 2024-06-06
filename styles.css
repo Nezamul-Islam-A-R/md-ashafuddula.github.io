@@ -201,8 +201,7 @@ desktop-view-message {
     align-items: center;
 }
 .desktop-view-button {
-    margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 1px;
     display: inline-block;
     padding: 5px 7px;
     background-color:  #343a40;
