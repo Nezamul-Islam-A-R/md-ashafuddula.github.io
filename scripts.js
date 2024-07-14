@@ -20,19 +20,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 100); // Change color every 2 seconds
 });
-// function enableDesktopView() {
-//     document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
-//     alert('Desktop view enabled');
-// }
 function enableDesktopView() {
-    const viewportMeta = document.querySelector('meta[name="viewport"]');
-    const currentContent = viewportMeta.getAttribute('content');
-    
-    if (currentContent === 'width=device-width, initial-scale=1') {
-        viewportMeta.setAttribute('content', 'width=1024');
-        alert('Desktop view enabled');
-    } else {
-        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
-        alert('Phone view enabled');
-    }
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
+    alert('Desktop view enabled');
 }
+// function enableDesktopView() {
+//     const viewportMeta = document.querySelector('meta[name="viewport"]');
+//     const currentContent = viewportMeta.getAttribute('content');
+    
+//     if (currentContent === 'width=device-width, initial-scale=1') {
+//         viewportMeta.setAttribute('content', 'width=1024');
+//         alert('Desktop view enabled');
+//     } else {
+//         viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
+//         alert('Phone view enabled');
+//     }
+// }
